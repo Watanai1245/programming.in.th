@@ -1,21 +1,21 @@
 a = int(input())
 b = int(input())
 c = int(input())
-grade = a+b+c
-if grade in range(80,101):
+All = a + b + c
+if 80 <= All <= 100:
     print('A')
-elif grade in range(75,80):
+elif 75 <= All  <= 79:
     print('B+')
-elif grade in range(70,75):
+elif 70 <= All  <= 74:
     print('B')
-elif grade in range(65,70):
+elif 65 <= All <= 69:
     print('C+')
-elif grade in range(60,65):
+elif 60 <= All <= 64:
     print('C')
-elif grade in range(55,60):
+elif 55 <= All <= 59:
     print('D+')
-elif grade in range(50,60):
+elif 50 <= All <= 54:
     print('D')
-elif grade in range(0,50):
+elif 0 <= All <= 49:
     print('F')
     
